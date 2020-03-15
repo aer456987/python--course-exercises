@@ -13,8 +13,8 @@ for p in products:
 
 with open('text.txt', 'w') as f:
     for p in products:
-    	f.write(p[0] + p[1] + '\n')
+    	f.write(p[0] + ',' + p[1] + '\n')
 
 with open('text.csv', 'w') as f:
     for p in products:
-    	f.write(p[0] + p[1] + '\n')
+    	f.write(p[0] + ',' + p[1] + '\n')
